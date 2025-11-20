@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://musicreviewapidb.cak6phi2abvy.eu-north-1.rds.amazonaws.com:5432/musicreviewapidb
-    username: kammat
-    password: AWS-mr_DB83
+    url: jdbc:postgresql://34.118.114.227:5432/postgres
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -13,4 +13,4 @@ spring:
     import: optional:secrets.properties
 
 server:
-  port: 5000
+  port: 8080
